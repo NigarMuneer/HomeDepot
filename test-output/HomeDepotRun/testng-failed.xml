@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [HomeDepotRun]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="HomeDepotTest(failed)">
+    <parameter name="URL" value="https://www.homedepot.com/"/>
+    <parameter name="Browser" value="Chrome"/>
+    <classes>
+      <class name="com.BOOTCAMP2020.HomeDepot.HomeDepotTest">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="f"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.BOOTCAMP2020.HomeDepot.HomeDepotTest -->
+    </classes>
+  </test> <!-- HomeDepotTest(failed) -->
+</suite> <!-- Failed suite [HomeDepotRun] -->

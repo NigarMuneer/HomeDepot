@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-03-20T18:34:54 EDT" name="HomeDepotRun" finished-at="2020-03-20T18:35:35 EDT" duration-ms="41144">
+    <groups>
+    </groups>
+    <test started-at="2020-03-20T18:34:54 EDT" name="HomeDepotTest" finished-at="2020-03-20T18:35:35 EDT" duration-ms="41144">
+      <class name="com.BOOTCAMP2020.HomeDepot.HomeDepotTest">
+        <test-method is-config="true" signature="beforeClass(java.lang.String, java.lang.String)[pri:0, instance:com.BOOTCAMP2020.HomeDepot.HomeDepotTest@dd0c991]" started-at="2020-03-20T18:34:54 EDT" name="beforeClass" finished-at="2020-03-20T18:35:08 EDT" duration-ms="13576" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.homedepot.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="f()[pri:1, instance:com.BOOTCAMP2020.HomeDepot.HomeDepotTest@dd0c991]" started-at="2020-03-20T18:35:08 EDT" name="f" finished-at="2020-03-20T18:35:35 EDT" duration-ms="27488" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.BOOTCAMP2020.HomeDepot.HomeDepotTest@dd0c991]" started-at="2020-03-20T18:35:35 EDT" name="afterClass" finished-at="2020-03-20T18:35:35 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.BOOTCAMP2020.HomeDepot.HomeDepotTest -->
+    </test> <!-- HomeDepotTest -->
+  </suite> <!-- HomeDepotRun -->
+</testng-results>
